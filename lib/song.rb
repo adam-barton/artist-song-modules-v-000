@@ -6,6 +6,7 @@ class Song
 
   extend Memorable
   extend Findable
+  inclue Paramable
 
   @@all = []
 
