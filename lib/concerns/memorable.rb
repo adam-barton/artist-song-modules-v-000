@@ -8,6 +8,11 @@ module Memorable
     def count
       self.all.count
     end
+
+    def all 
+      self.all
+    end
+    
   end
 
   module InstanceMethods
